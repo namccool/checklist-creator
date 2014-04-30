@@ -1,0 +1,22 @@
+html {
+	font-size: 1em;
+	font-family: "Times New Roman", serif;
+	width: 300px;
+	margin: auto;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: "Freight Sans Pro", sans-serif;
+	text-align: center;
+	top: 0;
+}
+
+form {
+	top: 30px;
+	position: absolute;
+}
+
+.checked-off {
+    text-decoration: line-through;
+}

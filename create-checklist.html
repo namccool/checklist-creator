@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="create-checklist.css"/>
+		<script type="text/javascript" src="create-checklist.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<title>Checklist</title>
+	</head>
+	<body>
+		<h2 id="title"></h2>
+		<form name="myCheckListForm">
+			<input type="text" name="myListName" class="name" style="text-align: center;" placeholder="Name This List">
+			<input type="button" class="name" value="Go" onclick="nameList()"><br>
+			<input type="text" name="checkListItem">
+			<input type="button" value="Add to List" onclick="createList()">
+			<input type="button" value="Create New List" onclick="createNew()">
+		</form>
+		<div id="checkList">
+		</div>
+	</body>
+</html>
